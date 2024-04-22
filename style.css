@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*a{
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+    background-color: transparent;
+}
+header {
+    background-color:black;
+    height: 10vh;
+    width: 100%;
+    padding: 2vw 4vw;
+    justify-content: space-between;
+background-color: transparent;
+    display: flex;
+    align-items: center;
+    /* z-index: 1; */
+    position: absolute;
+    top: 0;
+}
+.logo {
+    background-image: url("logo.png");
+    height: 3vw;
+    width: 11vw;
+    color:black;
+    padding: 2px;
+    background-size: cover;
+    margin-left: 10px;
+    position: absolute;
+    background-color: transparent;
+}
+.h-item {
+    position: absolute;
+    right: 50px;   
+}
+.main header button {
+    height: 5vh;
+    width: 7vw;
+    font-size: 10px;
+    border-radius: 8%;
+    font-weight: 800;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+}
+header select {
+    height: 5vh;
+    width: 7vw;
+    font-size: 1vw;
+    padding:1px;
+    font-weight: 1000;
+    background-color: transparent;
+    color: white;
+}
+
+.main {
+    background-image: url("header-image.png");
+    opacity: 1;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 200px;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.main input {
+    width: 25vw;
+    height: 7vh;
+    background-color: transparent;
+    font-size: 1.5vw;
+}
+.main button {
+    height: 7vh;
+    width: 250px;
+    background-color:red;
+    color: white;
+    font-weight: 800;
+    font-size: 10px;
+    border-radius:7px;
+}
+.main-email {
+    margin-top: 20px;
+}
+.main h1 {
+    font-size: 6vw;
+}
+section2,
+section3,
+section4,
+section5 {
+    background: black;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 20px 25px;
+    color: white;
+}
+
+section2 img {
+    height: 30vh;
+    width: 25vw;
+    float: right;
+}
+p {
+    font-size:2vw;
+}
+section3 img {
+    height: 30vh;
+    width: 25vw;
+    float: left;
+
+}
+section4 img {
+    height: 30vh;
+    width: 25vw;
+    float: right;
+}
+section5 img {
+    height: 30vh;
+    width: 25vw;
+    float: left;
+}
+section7 h1{
+    text-align: center;
+    font-weight: 800;
+}
+section7{
+    background: black;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    height: auto;
+}
+.blockt{
+  
+   margin: 10vh 20vw;
+
+}
+section7 li label{
+    height:10vh;
+    width: 100%;
+    font-size: 2vw;
+    display: inline-block;
+    padding: 20px;
+    background-color: grey;
+}
+.content{
+    
+    padding: 5px;
+    background: #303030;
+    text-align: left;
+    max-height: 0;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+    
+}
+.content p{
+    margin: 1vw;
+    font-size: 1.5vw;
+}
+section7 li{
+    list-style: none;
+
+}
+input[type="radio"]
+{
+    display: none;
+}
+label::after{
+    content: "+";
+    position:relative;
+    font-weight: 800;
+    float: right;
+    font-size: 50px;
+    transition: transform 0.5s;
+}
+.blockt input[type="radio"]:checked +label+ .content{
+    max-height: 500px;
+    padding: 10px;
+
+}
+.blockt input[type="radio"]:checked +label::after{
+     transform: rotate(135deg);
+}
+
+.last-e{
+    text-align: center;
+    justify-content: center;
+}
+.last-e input{
+    width: 25vw;
+    height: 7vh;
+    background-color: transparent;
+    font-size: 1.5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.last-e button{
+  
+
+    height: 7vh;
+    width: 250px;
+    background-color:red;
+    color: white;
+    font-weight: 800;
+    font-size: 10px;
+    border-radius:7px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    
+    padding: 50px;
+}
+footer li{
+    list-style:none;
+}
+footer select {
+    height: 50px;
+    width: 150px;
+    font-size: medium;
+    padding: 10px;
+    font-weight: 1000;
+    background-color: transparent;
+    color: white;
+
+}
+

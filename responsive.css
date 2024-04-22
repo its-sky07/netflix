@@ -1,0 +1,27 @@
+@media (max-width:768px){
+    section2,
+section3,
+section4,
+section5{
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+section2 img{
+    width: 60%;
+    height:40vh ;
+}
+section3 img{
+    width: 60%;
+    height:40vh ;
+}
+section4 img{
+    width: 60%;
+    height:40vh ;
+}
+section5 img{
+    width: 60%;
+    height:40vh ;
+}
+
+}
